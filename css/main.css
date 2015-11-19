@@ -29,9 +29,6 @@ html {
 	}
 
 
-
-
-
 .section{
 	padding-left: 2rem;
 	padding-right: 2rem;
@@ -44,8 +41,7 @@ nav li{
 	border: 2px solid #808080;
 	display: block;
 	float: left;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding: 4%;
 	text-align: center;
 	background-color: #A9A9A9;
 }
