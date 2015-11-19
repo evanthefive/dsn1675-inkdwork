@@ -20,7 +20,9 @@ html {
 .section{
 	padding: 2rem;
 }
-
+.mainnav{
+	clear: all;
+}
 
 nav li{
 	display: block;
@@ -69,4 +71,10 @@ ol{
 
 .button{
 	background-color: #A9A9A9;
+}
+
+@media only screen and (min-width: 48em){
+
+
+
 }
