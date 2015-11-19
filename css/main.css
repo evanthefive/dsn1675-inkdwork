@@ -20,13 +20,13 @@ html {
 .imgset{
 	display: none;
 }
-	.mimgset{
-		display: none;
-	}
+.mimgset{
+	display: none;
+}
 
-	.simgset{
-		display: block;
-	}
+.simgset{
+	display: block;
+}
 
 
 .section{
@@ -73,7 +73,20 @@ ol{
   padding-left: 0;
 }
 
+label{
+	display: block;
+}
+form div{
+	margin-bottom: 1.3rem;
+	text-align: center;
+}
 
+
+
+
+.txtcenter{
+	text-align: center;
+}
 
 .clr1{
 	background-color: #D3D3D3;
