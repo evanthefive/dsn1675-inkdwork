@@ -17,18 +17,35 @@ html {
 }
 
 
-.section{
-	padding: 2rem;
+.imgset{
+	display: none;
 }
-.mainnav{
-	clear: all;
+	.mimgset{
+		display: none;
+	}
+
+	.simgset{
+		display: block;
+	}
+
+
+
+
+
+.section{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
 }
 
+
 nav li{
+	border: 2px solid #808080;
 	display: block;
 	float: left;
-	width: 33.333%;
-	padding: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	text-align: center;
 	background-color: #A9A9A9;
 }
@@ -36,10 +53,15 @@ nav li:hover{
 	background-color: #808080;
 }
 
+
+
 a{
 	text-decoration: none;
 }
 
+a li{
+	width: 33.333%;
+}
 
 
 ol{
@@ -74,6 +96,35 @@ ol{
 }
 
 @media only screen and (min-width: 48em){
+
+	.section{
+	padding: 8rem;
+	}
+
+
+	.imgset{
+		display: block;
+	}
+
+	.mimgset{
+		display: block;
+	}
+
+	.simgset{
+		display: none;
+	}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 90em){
+
+	.section{
+	padding: 10rem;
+	}
 
 
 
