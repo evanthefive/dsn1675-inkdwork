@@ -1,23 +1,72 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-family: sans-serif;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+
+.section{
+	padding: 2rem;
+}
+
+
+nav li{
+	display: block;
+	float: left;
+	width: 33.333%;
+	padding: 1rem;
+	text-align: center;
+	background-color: #A9A9A9;
+}
+nav li:hover{
+	background-color: #808080;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+ol{
+  margin: 0;
+  padding-left: 0;
+}
+
+
+
 .clr1{
-	background-color: purple;
+	background-color: #D3D3D3;
 }
 
 .clr2{
-	background-color: green;
+	background-color: #D3D3D3;
 }
 
 .clr3{
-	background-color: red;
+	background-color: #808080;
 }
 
 .clr4{
-	background-color: blue;
+	background-color: #A9A9A9;
 }
 
 .backimg{
-	background-color: orange;
+	background-color: #DCDCDC;
 }
 
 .button{
-	background-color: brown;
+	background-color: #A9A9A9;
 }

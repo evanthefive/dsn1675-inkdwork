@@ -1,4 +1,7 @@
-/* http://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1 */
+/*
+  Gridifier || Code released under the UNLICENSE
+  http://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,20,0,0;m,4,48,1,1;l,4,90,1,1
+*/
 
 .grid {
   margin: 0;
@@ -97,7 +100,7 @@
   visibility: visible;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
 .unit-s-hidden {
   display: none;
@@ -141,7 +144,7 @@
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 48em) {
 
 .unit-m-hidden {
   display: none;
@@ -254,7 +257,7 @@
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
 .unit-l-hidden {
   display: none;
@@ -377,9 +380,6 @@
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
 }
 
 .content-fill {
