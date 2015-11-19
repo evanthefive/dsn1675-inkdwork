@@ -50,6 +50,14 @@ nav li:hover{
 }
 
 
+input{
+	padding-left: 1rem;
+}
+
+form{
+	background-color: #A9A9A9;
+	padding: 1rem;
+}
 
 a{
 	text-decoration: none;
