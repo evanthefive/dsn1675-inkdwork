@@ -41,9 +41,10 @@ nav li{
 	border: 2px solid #808080;
 	display: block;
 	float: left;
-	padding: 4%;
+	padding: 6%;
 	text-align: center;
 	background-color: #A9A9A9;
+	width: 33.333%;
 }
 nav li:hover{
 	background-color: #808080;
@@ -52,6 +53,7 @@ nav li:hover{
 
 input{
 	padding-left: 1rem;
+	width: 50%;
 }
 
 form{
