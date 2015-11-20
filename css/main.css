@@ -17,24 +17,8 @@ html {
 }
 
 
-.imgset{
-	display: none;
-}
-.mimgset{
-	display: none;
-}
-
-.simgset{
-	display: block;
-}
 
 
-.section{
-	padding-left: 2rem;
-	padding-right: 2rem;
-	padding-top: 5rem;
-	padding-bottom: 2rem;
-}
 
 
 nav li{
@@ -47,42 +31,38 @@ nav li{
 	background-color: #A9A9A9;
 	width: 33.333%;
 }
-nav li:hover{
-	background-color: #808080;
-}
-
-
-input{
-	padding-left: 1rem;
-	width: 50%;
-}
-
-form{
-	background-color: #A9A9A9;
-	padding: 1rem;
-}
-
 a{
 	text-decoration: none;
 }
-
 a li{
 	width: 33.333%;
 }
-
 
 li{
 	display: block;
 	line-height: 1.5rem;
 	text-align: center;
 }
-
 ol{
   margin: 0;
   padding-left: 0;
   margin-bottom: 2rem;
 }
 
+
+
+
+
+
+
+input{
+	padding-left: 1rem;
+	width: 50%;
+}
+form{
+	background-color: #A9A9A9;
+	padding: 1rem;
+}
 label{
 	display: block;
 }
@@ -91,16 +71,30 @@ form div{
 	text-align: center;
 }
 
+
+
+
+
+
+
+
 h2{
 	text-align: center;
 }
 h3{
 	text-align: center;
 }
-
 p{
 	text-align: center;
 }
+
+
+
+
+
+
+
+
 .footerlogo{
 	max-width: 354px;
 	max-height: 96px;
@@ -114,33 +108,59 @@ p{
 
 
 
+
+
+
+.imgset{
+	display: none;
+}
+.mimgset{
+	display: none;
+}
+.simgset{
+	display: block;
+}
+
+
+
+
+.section{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
 .txtcenter{
 	text-align: center;
 }
 
-.clr1{
-	background-color: #D3D3D3;
-}
 
-.clr2{
-	background-color: #D3D3D3;
-}
 
-.clr3{
-	background-color: #808080;
-}
 
-.clr4{
-	background-color: #A9A9A9;
-}
 
 .backimg{
 	background-color: #DCDCDC;
 }
-
 .button{
 	background-color: #A9A9A9;
 }
+.clr1{
+	background-color: #D3D3D3;
+}
+.clr2{
+	background-color: #D3D3D3;
+}
+.clr3{
+	background-color: #808080;
+}
+.clr4{
+	background-color: #A9A9A9;
+}
+
+
+
+
+
 
 @media only screen and (min-width: 48em){
 
@@ -152,11 +172,9 @@ p{
 	.imgset{
 		display: block;
 	}
-
 	.mimgset{
 		display: block;
 	}
-
 	.simgset{
 		display: none;
 	}
