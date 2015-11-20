@@ -41,7 +41,8 @@ nav li{
 	border: 2px solid #808080;
 	display: block;
 	float: left;
-	padding: 6%;
+	padding: 3%;
+	margin-top: 3%;
 	text-align: center;
 	background-color: #A9A9A9;
 	width: 33.333%;
@@ -70,9 +71,16 @@ a li{
 }
 
 
+li{
+	display: block;
+	line-height: 1.5rem;
+	text-align: center;
+}
+
 ol{
   margin: 0;
   padding-left: 0;
+  margin-bottom: 2rem;
 }
 
 label{
@@ -81,6 +89,26 @@ label{
 form div{
 	margin-bottom: 1.3rem;
 	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+.footerlogo{
+	max-width: 354px;
+	max-height: 96px;
+}
+
+.headerlogo{
+	max-width: 85%;
+	max-height: 65%;
 }
 
 
@@ -132,7 +160,6 @@ form div{
 	.simgset{
 		display: none;
 	}
-
 
 
 }
