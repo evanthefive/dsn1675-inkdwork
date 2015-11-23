@@ -22,14 +22,14 @@ html {
 
 
 nav li{
-	border: 2px solid #74645C;
-	display: block;
-	float: left;
-	padding: 3%;
-	margin-top: 3%;
-	text-align: center;
-	background-color: #B4ACA4;
-	width: 33.333%;
+		/*border: 2px solid #74645C;*/
+    display: block;
+    float: left;
+    padding: 3%;
+    margin-top: -1%;
+    margin-bottom: -20%;
+    text-align: center;
+    width: 33.333%;
 }
 a{
 	text-decoration: none;
@@ -37,16 +37,13 @@ a{
 a li{
 	width: 33.333%;
 }
-
+ol{
+	padding-left: 0em;
+}
 li{
 	display: block;
 	line-height: 1.5rem;
 	text-align: center;
-}
-ol{
-  margin: 0;
-  padding-left: 0;
-  margin-bottom: 2rem;
 }
 
 
@@ -94,6 +91,13 @@ p{
 
 
 
+
+
+.icon{
+	max-height: 55%;
+	max-width: 55%;
+	margin-left: 23%;
+}
 
 .footerlogo{
 	max-width: 354px;
