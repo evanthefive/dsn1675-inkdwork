@@ -19,8 +19,15 @@ html {
 
 
 
-
-
+main{
+	padding-top: 51%;
+}
+.masthead{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
 nav li{
 		/*border: 2px solid #74645C;*/
     display: block;
@@ -170,7 +177,6 @@ p{
 	.navicons{
 	margin-top: 5%;
 	}
-
 	.navlogo{
 	margin-top: 5%;
 	}
@@ -179,6 +185,9 @@ p{
 	padding: 8rem;
 	}
 
+main{
+	padding-top: 15%;
+}
 
 	.imgset{
 		display: block;
