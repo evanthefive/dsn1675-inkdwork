@@ -20,7 +20,7 @@ html {
 
 
 main{
-	padding-top: 51%;
+	padding-top: 39%;
 }
 .masthead{
   position: fixed;
@@ -112,12 +112,12 @@ p{
 
 
 .navbar{
-	padding-bottom: 6%;
+	padding-bottom: 2%;
 }
 .icon{
-	max-height: 55%;
-	max-width: 55%;
-	margin-left: 23%;
+	max-height: 35%;
+	max-width: 35%;
+	margin-left: 30%;
 }
 
 .footerlogo{
@@ -219,9 +219,9 @@ p{
 	padding: 8rem;
 	}
 
-main{
-	padding-top: 15%;
-}
+	main{
+		padding-top: 11%;
+	}
 
 	.imgset{
 		display: block;
