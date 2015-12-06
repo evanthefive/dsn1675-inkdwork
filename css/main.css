@@ -98,6 +98,7 @@ h2{
 }
 h3{
 	text-align: center;
+	margin: 0;
 }
 p{
 	text-align: center;
@@ -126,8 +127,24 @@ p{
 
 
 
-
-
+.img3{
+	  background-image: url("..imgs/wideimage1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.img1{
+	  background-image: url("../imgs/tattoo1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.img2{
+	  background-image: url("../imgs/tallimage.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
 
 
 
@@ -141,7 +158,9 @@ p{
 	display: block;
 }
 
-
+.sctbrdr {
+    border: 3px solid #fff;
+}
 .homeimg{
 	display: block;
 	width: 100%;
@@ -160,13 +179,19 @@ p{
 
 
 .button{
-	background-color: #A9A9A9;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .clr1{
 	background-color: #74645C;
 }
 .clr2{
-	background-color: #E6D0BC;
+	background-color: #fffaf0;
 }
 .clr3{
 	background-color: #808080;
