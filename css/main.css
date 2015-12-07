@@ -128,7 +128,7 @@ p{
 
 
 .img3{
-	  background-image: url("..imgs/wideimage1.jpg");
+	  background-image: url("../imgs/midimage.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     color: #fff;
@@ -188,10 +188,10 @@ p{
     padding-bottom: 2%;
 }
 .clr1{
-	background-color: #74645C;
+	background-color: #fffafa;
 }
 .clr2{
-	background-color: #fffaf0;
+	background-color: #fffafa;
 }
 .clr3{
 	background-color: #808080;
