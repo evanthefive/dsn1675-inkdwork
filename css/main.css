@@ -120,9 +120,8 @@ p{
 	margin-left: 30%;
 }
 
-.footerlogo{
-	max-width: 354px;
-	max-height: 96px;
+.endpage{
+	padding: 5%;
 }
 
 
@@ -158,6 +157,9 @@ p{
 	display: block;
 }
 
+.midsct {
+	color: #3a496c;
+}
 .sctbrdr {
     border: 3px solid #fff;
 }
@@ -166,7 +168,12 @@ p{
 	width: 100%;
 }
 
-
+.section2{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 .section{
 	padding-left: 2rem;
 	padding-right: 2rem;
@@ -177,7 +184,15 @@ p{
 	text-align: center;
 }
 
-
+.button2{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #3a496c;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 .button{
     background-color: transparent;
     color: #fff;
